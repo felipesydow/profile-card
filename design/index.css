@@ -1,0 +1,127 @@
+body {
+	background: #19a1ad;
+	font-family: 'Kumbh Sans';
+	font-size: 18px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.caixa {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cartao {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 375px;
+	height: auto;
+	border-radius: 15px;
+	background-color: white;
+	text-align: center; 
+}
+
+.bg-pattern-card {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -3.5rem;
+}
+
+.nome {
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.idade {
+	color: #626368;
+	padding-left: 5px;
+	font-weight: 400;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	margin-right: 3.5em;
+}
+
+li {
+	display: inline;
+	text-align: center;
+}
+
+.bg-pattern-top {
+	position: fixed;
+    top:-60%;
+    left:-20%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.bg-pattern-bottom {
+    position: fixed;
+    bottom: -66%;
+    right: -209px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.cidade {
+	color: #626368;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.estatisticas {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+	font-size: 12px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.seguidores {
+	margin-left: 5px;
+}
+
+.likes {
+	padding-right: 10px;
+}
+
+.fotos {
+	margin-right: -15px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 300px) {
+	.caixa {
+		width: auto;
+	}
+
+	.bg-pattern-bottom {
+		width: 100%
+	}
+
+}    
